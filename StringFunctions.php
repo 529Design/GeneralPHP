@@ -18,4 +18,16 @@
     
     ?>
   </p>
+  
+      <p>
+    <?php
+    $myName = "Jeffrey";
+    print strpos($myName, "e");    
+    ?>
+    </p>
+    <p>
+    <?php
+    if (strpos($myName,"h") === false) {
+  print "Sorry, no 'h' in " . $myName;
+
 </html>
