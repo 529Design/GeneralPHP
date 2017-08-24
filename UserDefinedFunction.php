@@ -14,5 +14,20 @@
         greetings($n);
         ?>
       </p>
+		
+	<p>
+        <?php
+      
+    function aboutMe($name, $age){
+     echo "Hello! My name is " . $name . ", and I am " . $age . " years old.";    
+        
+    }
+    
+    $n = "Jeffrey";
+    $a = 27; 
+    aboutMe($n, $a);
+    
+        ?>
+      </p>
     </body>
 </html>
